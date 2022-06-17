@@ -13048,13 +13048,14 @@ border-radius: 34px;
 	color: #fff;
 	font-size: 60px;
 	font-weight: 900;
-	margin: 100px;
+	line-height: 80px;
 }
 .touchBannerSubHeading{
 	color: #fff;
 	font-size: 60px;
 	font-weight: 600;
-	margin: 100px;
+	line-height: 60px;
+
 }
 
 .descriptionofLtouch{	
