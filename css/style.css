@@ -4,7 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Dhurjati&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=B612&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap');
 
 /*scrollbar theme*/
 ::-webkit-scrollbar {
@@ -11583,6 +11585,35 @@ ul.list li {
 
 
 
+.textforCenterBanner{
+	text-align: center;
+	margin-top: -500px;
+	margin-bottom: 400px;
+
+}
+
+@media screen and (max-width: 1090px) {
+	.textforCenterBanner{
+		text-align: center;
+		margin-top: -350px;
+		margin-bottom: 400px;
+	}
+}
+
+@media screen and (max-width: 720px) {
+	.textforCenterBanner{
+		text-align: center;
+		margin-top: -350px;
+		margin-bottom: 400px;
+	}
+	.textforCenterBanner .touchBannerHeading{
+		display: none;
+	}
+	.textforCenterBanner .touchBannerSubHeading{
+		display: none;
+	}
+}
+
 section.our-clientsFeedback.py-5 {
 	margin-top: -100px;
 }
@@ -13039,21 +13070,44 @@ border-radius: 34px;
 }
 
 
+.ml3 {
+	font-weight: 900;
+	font-size: 3.5em;
+  }
+
+  .btn-outline-info{
+	text-transform: uppercase;
+	margin-top: 50px;
+	color: #fff;
+	font-size:20px;
+	font-weight: 600;
+	background-color:#0dcaf0;
+  }
+
+  .btn-outline-info:hover{
+	background-color:#fff;
+	border: 1px solid #fff;
+	color: #0dcaf0;
+  }
+
 .touchMainBanner{
 	background-image: url(../images/Ltouch/MainBanner.png);
 	background-size: cover;
 }
 
 .touchBannerHeading{
+
 	color: #fff;
 	font-size: 60px;
 	font-weight: 900;
 	line-height: 80px;
+	letter-spacing: 2px;
+	word-spacing: 10px;
 }
 .touchBannerSubHeading{
 	color: #fff;
 	font-size: 60px;
-	font-weight: 600;
+	font-weight: 400;
 	line-height: 60px;
 
 }
@@ -13070,15 +13124,88 @@ border-radius: 34px;
 }
 
 
+.cardSmartTouch{
+	border: none;
+
+}
+
+@media screen and (max-width: 767px) {
+	.cardSmartTouch{
+		height: auto!important;
+	}
+}
+
+.textSideAbout{
+	margin-top: -100px;
+}
+
+.largeImageAboutSec{
+	margin-bottom: -50px!important;
+}
+
+.nextAboutSection{
+	margin-top: -100px!important;
+}
 
 
 
+@media screen and (max-width: 1201px) {
+	.nextAboutSection{
+		margin-top: 0px!important;
+	}
+	
+}
+
+@media screen and (max-width: 767px) {
+	.cardSmartTouch{
+		height: auto!important;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.textSideAbout{
+		margin-top: 0;
+	
+	}
+}
+
+.plansSectionHeading{
+		font-family: 'Baloo Bhaina 2';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 50px;
+		line-height: 54px;
+		color: #000000;
+		text-transform: uppercase;
+}
 
 
 
+.cardSmartTouchText{
+	background-color: #161719;
+	border-radius: 20px;
+	padding: 25px 20px;
+	height: 335px;
+}
 
+.cardSmartTouchTextHeading{
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 32px;
+	line-height: 39px;
+	color: #FFFFFF;
 
+}
 
+.cardSmartTouchTextDescription{
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 41px;
+	color: #FFFFFF;
+}
 
 /* Hide the images by default */
 .mySlides {
